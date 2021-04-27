@@ -8,10 +8,12 @@ export const StyledTitle = styled.h1`
   justify-content: flex-end;
   margin-right: 10%;
   margin-top: 20px;
-    
 `;
 
-export const StyledLittleTitle = styled.h3`
-  margin-left: 35px;
+export const StyledLittleTitle = styled.div`
   display: inline-flex;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
 `;

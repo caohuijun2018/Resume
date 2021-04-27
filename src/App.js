@@ -1,8 +1,6 @@
 import "./App.css";
-import Content from './Components/Content'
+import Content from "./Components/Content";
 const App = () => {
-  return (
-    <Content/>
-  )
-}
+  return <Content />;
+};
 export default App;
