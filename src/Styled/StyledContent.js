@@ -36,3 +36,6 @@ export const StyledProjectLink = styled.div`
   display: flex;
   margin-left: 20rem;
 `;
+export const StyledGitLink = styled.a`
+  margin-left:0px;
+`

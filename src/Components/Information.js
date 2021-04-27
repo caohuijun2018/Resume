@@ -1,7 +1,7 @@
 import React from "react";
 //Styled
-import { StyledLittleTitle } from "../Styled/StyledHeader";
-import { StyledCell } from "../Styled/StyledContent";
+import {StyledLittleTitle} from "../Styled/StyledHeader";
+import {StyledCell, StyledGitLink} from "../Styled/StyledContent";
 //Image
 import education from "../Img/Education.png";
 import Information from "../Img/Information.png";
@@ -37,7 +37,9 @@ const information = () => {
       </StyledCell>
       <StyledCell>
         <img src={github} alt="github" />
-        https://github.com/caohuijun2018
+        <StyledGitLink href="https://github.com/caohuijun2018" target = '_blank'>
+          https://github.com/caohuijun2018
+        </StyledGitLink>
       </StyledCell>
       <StyledCell>
         <img src={email} alt="email" />

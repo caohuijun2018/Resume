@@ -21,11 +21,14 @@ const experience = () => {
         <img src={tagProject} alt="tagProject" />
         俄罗斯方块
         <StyledProjectLink>
-          <a href="https://react-tetris.hi-hi.cn/">
-            {"   "}
+          <a href="https://react-tetris.hi-hi.cn/" target="_blank">
+            {" "}
             <img src={link} alt="link" /> Demo
           </a>
-          <a href="https://github.com/caohuijun2018/react-tetris">
+          <a
+            href="https://github.com/caohuijun2018/react-tetris"
+            target="_blank"
+          >
             <img src={link} alt="link" />
             源代码
           </a>
@@ -33,11 +36,11 @@ const experience = () => {
       </StyledCell>
       <StyledDefinite>
         <img src={lightning} alt="lightning" />
-        基于React框架实现
+        基于 React 框架实现
       </StyledDefinite>
       <StyledDefinite>
         <img src={lightning} alt="lightning" />
-        使用styled-components进行网页样式设计，使用自定义的hooks组件
+        使用 styled-components 进行网页样式设计，使用自定义的 hooks 组件
       </StyledDefinite>
       <StyledDefinite>
         <img src={lightning} alt="lightning" />
@@ -51,11 +54,11 @@ const experience = () => {
         <img src={tagProject} alt="tagProject" />
         扫雷小游戏
         <StyledProjectLink>
-          <a href="https://minesweeper.hi-hi.cn/">
+          <a href="https://minesweeper.hi-hi.cn/" target="_blank">
             {" "}
             <img src={link} alt="link" /> Demo
           </a>
-          <a href="https://github.com/caohuijun2018/minsweeper">
+          <a href="https://github.com/caohuijun2018/minsweeper" target="_blank">
             <img src={link} alt="link" />
             源代码
           </a>
@@ -63,7 +66,7 @@ const experience = () => {
       </StyledCell>
       <StyledDefinite>
         <img src={lightning} alt="lightning" />
-        基于React实现的单页游戏
+        基于 React 实现的单页游戏
       </StyledDefinite>
       <StyledDefinite>
         <img src={lightning} alt="lightning" />

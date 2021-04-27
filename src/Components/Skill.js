@@ -1,6 +1,6 @@
 //Styled
-import { StyledLittleTitle } from "../Styled/StyledHeader";
-import { StyledCell } from "../Styled/StyledContent";
+import {StyledLittleTitle} from "../Styled/StyledHeader";
+import {StyledCell} from "../Styled/StyledContent";
 //Image
 import tag from "../Img/tag.png";
 import start from "../Img/start.png";
@@ -14,15 +14,15 @@ const talent = () => {
       </StyledLittleTitle>
       <StyledCell>
         <img src={start} alt={start} />
-        熟悉HTML，CSS，熟练使用HTML，CSS，JavaScript进行网页开发
+        熟悉 HTML，CSS，熟练使用 HTML，CSS，JavaScript 进行网页开发
       </StyledCell>
       <StyledCell>
         <img src={start} alt={start} />
-        熟悉React框架，ReactHooks，可以构建单页Web应用
+        熟悉 React 框架，ReactHooks，可以构建单页 Web 应用
       </StyledCell>
       <StyledCell>
         <img src={start} alt={start} />
-        熟悉Git开发流程
+        熟悉 Git 开发流程
       </StyledCell>
       <StyledCell>
         <img src={start} alt={start} />
@@ -30,7 +30,7 @@ const talent = () => {
       </StyledCell>
       <StyledCell>
         <img src={start} alt={start} />
-        英语：CET6 GPA：4.0/4.5
+        英语：CET6   
       </StyledCell>
     </div>
   );

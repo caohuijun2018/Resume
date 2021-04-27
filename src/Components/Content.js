@@ -1,11 +1,11 @@
 //Styled
-import { StyledPage } from "../Styled/StyledPage";
-import { StyledContent } from "../Styled/StyledContent";
-import { StyledTitle } from "../Styled/StyledHeader";
-import { StyledLittleTitle } from "../Styled/StyledHeader";
-import { StyledTop } from "../Styled/StyledContent";
-import { StyledAll } from "../Styled/StyledContent";
-import { StyledYixiang } from "../Styled/StyledContent";
+import {StyledPage} from "../Styled/StyledPage";
+import {StyledContent} from "../Styled/StyledContent";
+import {StyledTitle} from "../Styled/StyledHeader";
+import {StyledLittleTitle} from "../Styled/StyledHeader";
+import {StyledTop} from "../Styled/StyledContent";
+import {StyledAll} from "../Styled/StyledContent";
+import {StyledYixiang} from "../Styled/StyledContent";
 //Image
 import flag from "../Img/Flag.png";
 //Components
@@ -18,14 +18,14 @@ function Content() {
     <StyledPage>
       <StyledContent>
         <StyledTop>
-          <StyledTitle>曹慧珺/个人简历</StyledTitle>
+          <StyledTitle> 曹慧珺 / 个人简历 </StyledTitle>
         </StyledTop>
         <StyledAll>
           <StyledLittleTitle>
             <img src={flag} alt="flag" />
             意向职位
           </StyledLittleTitle>
-          <StyledYixiang>前端工程师</StyledYixiang>
+          <StyledYixiang> 前端开发实习生 </StyledYixiang>
           {information()}
           {talent()}
           {honor()}

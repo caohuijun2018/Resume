@@ -1,6 +1,6 @@
 //Styled
-import { StyledLittleTitle } from "../Styled/StyledHeader";
-import { StyledCell } from "../Styled/StyledContent";
+import {StyledLittleTitle} from "../Styled/StyledHeader";
+import {StyledCell} from "../Styled/StyledContent";
 //Image
 import honorPhoto from "../Img/honor.png";
 import sun from "../Img/sun.png";
@@ -21,7 +21,7 @@ const honor = () => {
       </StyledCell>
       <StyledCell>
         <img src={sun} alt="sun" />
-        计算机技术与软件专业技术资格-软件设计师 2020.11
+        计算机技术与软件专业技术资格 - 软件设计师 2020.11
       </StyledCell>
       <StyledCell>
         <img src={sun} alt="sun" />
