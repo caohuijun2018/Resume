@@ -48,7 +48,7 @@ const information = () => {
       <StyledCell>
         <img src={evaluate} alt="evaluate" />
         自我评价：
-        踏实肯干，态度认真，自学能力较强，有良好的沟通能力和团队合作能力
+        踏实肯干，自学能力较强，有良好的沟通能力和团队合作能力
       </StyledCell>
     </div>
   );
