@@ -1,7 +1,7 @@
 import React from "react";
 //Styled
-import {StyledLittleTitle} from "../Styled/StyledHeader";
-import {StyledCell, StyledGitLink} from "../Styled/StyledContent";
+import { StyledLittleTitle } from "../Styled/StyledHeader";
+import { StyledCell, StyledGitLink } from "../Styled/StyledContent";
 //Image
 import education from "../Img/Education.png";
 import Information from "../Img/Information.png";
@@ -37,8 +37,8 @@ const information = () => {
       </StyledCell>
       <StyledCell>
         <img src={github} alt="github" />
-        <StyledGitLink href="https://github.com/caohuijun2018" target = '_blank'>
-          https://github.com/caohuijun2018
+        <StyledGitLink href="https://github.com/caohuijun2018" target="_blank">
+          github.com/caohuijun2018
         </StyledGitLink>
       </StyledCell>
       <StyledCell>
@@ -47,8 +47,7 @@ const information = () => {
       </StyledCell>
       <StyledCell>
         <img src={evaluate} alt="evaluate" />
-        自我评价：
-        踏实肯干，自学能力较强，有良好的沟通能力和团队合作能力
+        自我评价： 踏实肯干，自学能力较强，有良好的沟通能力和团队合作能力
       </StyledCell>
     </div>
   );

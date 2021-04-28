@@ -1,11 +1,10 @@
 //Styled
-import {StyledPage} from "../Styled/StyledPage";
-import {StyledContent} from "../Styled/StyledContent";
-import {StyledTitle} from "../Styled/StyledHeader";
-import {StyledLittleTitle} from "../Styled/StyledHeader";
-import {StyledTop} from "../Styled/StyledContent";
-import {StyledAll} from "../Styled/StyledContent";
-import {StyledYixiang} from "../Styled/StyledContent";
+import { StyledPage } from "../Styled/StyledPage";
+import { StyledContent, StyledResumeLink } from "../Styled/StyledContent";
+import { StyledLittleTitle } from "../Styled/StyledHeader";
+import { StyledTop } from "../Styled/StyledContent";
+import { StyledAll } from "../Styled/StyledContent";
+import { StyledYixiang } from "../Styled/StyledContent";
 //Image
 import flag from "../Img/Flag.png";
 //Components
@@ -18,7 +17,13 @@ function Content() {
     <StyledPage>
       <StyledContent>
         <StyledTop>
-          <StyledTitle> 曹慧珺 / 个人简历 </StyledTitle>
+          <h1> 曹慧珺 / 个人简历 </h1>
+          <StyledResumeLink>
+            在线简历：
+            <a href="https://github.com/caohuijun2018/Resume" target="_black">
+              github.com/caohuijun2018/Resume
+            </a>
+          </StyledResumeLink>
         </StyledTop>
         <StyledAll>
           <StyledLittleTitle>

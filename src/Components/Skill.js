@@ -1,6 +1,6 @@
 //Styled
-import {StyledLittleTitle} from "../Styled/StyledHeader";
-import {StyledCell} from "../Styled/StyledContent";
+import { StyledLittleTitle } from "../Styled/StyledHeader";
+import { StyledCell } from "../Styled/StyledContent";
 //Image
 import tag from "../Img/tag.png";
 import start from "../Img/start.png";
@@ -18,7 +18,7 @@ const talent = () => {
       </StyledCell>
       <StyledCell>
         <img src={start} alt={start} />
-        熟悉 React 框架，ReactHooks，可以构建单页 Web 应用
+        熟悉 React 框架，React Hooks，可以构建单页 Web 应用
       </StyledCell>
       <StyledCell>
         <img src={start} alt={start} />
@@ -30,7 +30,7 @@ const talent = () => {
       </StyledCell>
       <StyledCell>
         <img src={start} alt={start} />
-        英语：CET6   
+        英语：CET6
       </StyledCell>
     </div>
   );

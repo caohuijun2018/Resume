@@ -40,7 +40,7 @@ const experience = () => {
       </StyledDefinite>
       <StyledDefinite>
         <img src={lightning} alt="lightning" />
-        使用 styled-components 进行网页样式设计，使用自定义的 hooks 组件
+        使用 styled-components 进行网页样式设计，使用自定义的 Hooks 组件
       </StyledDefinite>
       <StyledDefinite>
         <img src={lightning} alt="lightning" />

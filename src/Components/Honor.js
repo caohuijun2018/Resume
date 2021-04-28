@@ -1,6 +1,6 @@
 //Styled
-import {StyledLittleTitle} from "../Styled/StyledHeader";
-import {StyledCell} from "../Styled/StyledContent";
+import { StyledLittleTitle } from "../Styled/StyledHeader";
+import { StyledCell } from "../Styled/StyledContent";
 //Image
 import honorPhoto from "../Img/honor.png";
 import sun from "../Img/sun.png";
