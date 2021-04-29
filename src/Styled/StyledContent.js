@@ -19,28 +19,29 @@ export const StyledContent = styled.div`
 export const StyledTop = styled.div`
   background: white;
   height: 4rem;
-  padding-left: 29rem;
+  justify-content: center;
   padding-top: 10px;
   display: block;
+  text-align: center;
 `;
 export const StyledAll = styled.div`
   margin: 0 7%;
 `;
 export const StyledCell = styled.div`
   font-size: 14px;
-  margin-left: 20px;
+  margin-left: 25px;
   margin-bottom: 5px;
   display: flex;
 `;
 export const StyledYixiang = styled.div`
-  margin-left: 20px;
+  margin-left: 27px;
   color: #ff748c;
   margin-bottom: 5px;
   font-size: 19px;
   font-weight: 600;
 `;
 export const StyledDefinite = styled.div`
-  margin-left: 35px;
+  margin-left: 44px;
   font-size: 0.8rem;
   margin-bottom: 5px;
   display: flex;
@@ -56,7 +57,11 @@ export const StyledGitLink = styled.a`
   color: #3f73f6;
 `;
 export const StyledResumeLink = styled.h4`
-  @media print {
+  @media  print {
+    font-size: 10px;
     color: #3f73f6;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
   }
 `;
