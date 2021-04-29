@@ -17,16 +17,13 @@ function Content() {
     <StyledPage>
       <StyledContent>
         <StyledTop>
-          <h1>
-            {" "}
-            曹慧珺 / 个人简历
-            <StyledResumeLink>
-              在线简历：
-              <a href="https://caohuijun.hi-hi.cn/" target="_black">
-                caohuijun.hi-hi.cn
-              </a>
-            </StyledResumeLink>{" "}
-          </h1>
+          <h1>曹慧珺 / 个人简历</h1>
+          <StyledResumeLink>
+            在线简历：
+            <a href="https://caohuijun.hi-hi.cn/" target="_black">
+              caohuijun.hi-hi.cn
+            </a>
+          </StyledResumeLink>
         </StyledTop>
         <StyledAll>
           <StyledLittleTitle>

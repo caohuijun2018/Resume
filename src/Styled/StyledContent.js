@@ -41,7 +41,7 @@ export const StyledYixiang = styled.div`
   font-weight: 600;
 `;
 export const StyledDefinite = styled.div`
-  margin-left: 44px;
+  margin-left: 47px;
   font-size: 0.8rem;
   margin-bottom: 5px;
   display: flex;
@@ -56,12 +56,12 @@ export const StyledGitLink = styled.a`
   display: inline-flex;
   color: #3f73f6;
 `;
-export const StyledResumeLink = styled.h4`
-  @media  print {
+export const StyledResumeLink = styled.p`
+  @media not print {
     font-size: 10px;
     color: #3f73f6;
     display: flex;
     justify-content: center;
-    margin-right: 10px;
+    display: none;
   }
 `;
