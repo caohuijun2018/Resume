@@ -15,7 +15,14 @@ export const StyledContent = styled.div`
     wwidth: 100%;
   }
 `;
-
+export const StyledUl = styled.ul`
+  padding-left: 60px;
+`;
+export const Styleda = styled.a`
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+`;
 export const StyledTop = styled.div`
   background: white;
   height: 4rem;
@@ -29,32 +36,28 @@ export const StyledAll = styled.div`
 `;
 export const StyledCell = styled.div`
   font-size: 14px;
-  margin: -3px 0;
   display: flex;
-  height：20px;
-  vertical-align: middle;
+  align-items: center;
 `;
 export const StyledYixiang = styled.div`
-  margin-left: 40px;
+  padding-left: 20px;
   color: #ff748c;
-  margin-bottom: 2px;
-  margin-top: 2px;
+  margin: 3px 42px;
   font-size: 19px;
   font-weight: 600;
 `;
 export const StyledDefinite = styled.div`
   font-size: 0.8rem;
-  margin: -4px 0px;
   display: flex;
 `;
 export const StyledProjectLink = styled.div`
   display: flex;
   margin-left: 18rem;
   font-size: 15px;
+  align-items: center;
 `;
+
 export const StyledGitLink = styled.a`
-  margin-left: 0px;
-  display: inline-flex;
   color: #3f73f6;
 `;
 export const StyledResumeLink = styled.p`
@@ -67,13 +70,16 @@ export const StyledResumeLink = styled.p`
   }
 `;
 export const StyledLine = styled.div`
-  height: 100%;
-  padding-top: 6px;
+  display: flex;
+  align-items: center;
 `;
 export const StyledTitle = styled.div`
   display: inline;
+  padding: 0 20px;
 `;
 export const StyledGithub = styled.img`
-  width: 1.6rem;
-  margin-left: 0.2rem;
+  width: 29px;
+  margin-left: 0.15rem;
+  display: flex;
+  align-items: center;
 `;

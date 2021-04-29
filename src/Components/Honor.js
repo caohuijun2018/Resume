@@ -1,6 +1,6 @@
 //Styled
 import { StyledLittleTitle } from "../Styled/StyledHeader";
-import { StyledCell, StyledLine, StyledTitle } from "../Styled/StyledContent";
+import { StyledCell, StyledLine, StyledTitle, StyledUl } from "../Styled/StyledContent";
 //Image
 import honorPhoto from "../Img/honor.png";
 import sun from "../Img/sun.png";
@@ -11,7 +11,7 @@ const honor = () => {
         <img src={honorPhoto} alt="honorPhoto" />
         <StyledTitle>个人荣誉</StyledTitle>
       </StyledLittleTitle>
-      <ul>
+      <StyledUl>
         <div>
           <StyledCell>
             <img src={sun} alt="sun" />
@@ -46,7 +46,7 @@ const honor = () => {
             <StyledLine>校级编程技能比赛 最佳程序媛奖 2019.10</StyledLine>
           </StyledCell>
         </div>
-      </ul>
+      </StyledUl>
     </div>
   );
 };

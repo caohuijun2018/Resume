@@ -1,11 +1,13 @@
 //Styled
 import { StyledLittleTitle } from "../Styled/StyledHeader";
 import {
+  Styleda,
   StyledCell,
   StyledDefinite,
   StyledLine,
   StyledProjectLink,
   StyledTitle,
+  StyledUl,
 } from "../Styled/StyledContent";
 //Image
 import project from "../Img/project.png";
@@ -19,23 +21,23 @@ const experience = () => {
         <img src={project} alt="project" />
         <StyledTitle>个人项目展示</StyledTitle>
       </StyledLittleTitle>
-      <ul>
+      <StyledUl>
         <div>
           <StyledCell>
             <img src={tagProject} alt="tagProject" />
             <StyledLine>俄罗斯方块</StyledLine>
             <StyledProjectLink>
-              <a href="https://react-tetris.hi-hi.cn/" target="_blank">
+              <Styleda href="https://react-tetris.hi-hi.cn/" target="_blank">
                 {" "}
                 <img src={link} alt="link" /> Demo
-              </a>
-              <a
+              </Styleda>
+              <Styleda
                 href="https://github.com/caohuijun2018/react-tetris"
                 target="_blank"
               >
                 <img src={link} alt="link" />
                 源代码
-              </a>
+              </Styleda>
             </StyledProjectLink>
           </StyledCell>
           <ul>
@@ -75,17 +77,17 @@ const experience = () => {
             <img src={tagProject} alt="tagProject" />
             <StyledLine>扫雷小游戏</StyledLine>
             <StyledProjectLink>
-              <a href="https://minesweeper.hi-hi.cn/" target="_blank">
+              <Styleda href="https://minesweeper.hi-hi.cn/" target="_blank">
                 {" "}
                 <img src={link} alt="link" /> Demo
-              </a>
-              <a
+              </Styleda>
+              <Styleda
                 href="https://github.com/caohuijun2018/minsweeper"
                 target="_blank"
               >
                 <img src={link} alt="link" />
                 源代码
-              </a>
+              </Styleda>
             </StyledProjectLink>
           </StyledCell>
           <ul>
@@ -111,7 +113,7 @@ const experience = () => {
             </div>
           </ul>
         </div>
-      </ul>
+      </StyledUl>
     </div>
   );
 };

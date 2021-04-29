@@ -7,6 +7,7 @@ import {
   StyledGitLink,
   StyledLine,
   StyledTitle,
+  StyledUl,
 } from "../Styled/StyledContent";
 //Image
 import education from "../Img/Education.png";
@@ -25,7 +26,7 @@ const information = () => {
         <img src={Information} alt="information" />
         <StyledTitle>基本信息</StyledTitle>
       </StyledLittleTitle>
-      <ul>
+      <StyledUl>
         <div>
           <StyledCell>
             <img src={education} alt="education" />
@@ -77,7 +78,7 @@ const information = () => {
             </StyledLine>
           </StyledCell>
         </div>
-      </ul>
+      </StyledUl>
     </div>
   );
 };
