@@ -1,6 +1,6 @@
 ## 简历源码
 
-[https://github.com/caohuilin/Resume](https://github.com/caohuilin/Resume)
+[https://github.com/caohuilin/Resume](github.com/caohuilin/Resume)
 
 ## 在线简历
 

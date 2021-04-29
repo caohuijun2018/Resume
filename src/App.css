@@ -1,5 +1,6 @@
 img {
-  width: 1.5rem;
+  width: 2rem;
+
   margin-right: 10px;
 }
 a {
@@ -8,4 +9,7 @@ a {
 }
 body {
   font-size: 13px;
+}
+.ul {
+  margin-top: -3px;
 }

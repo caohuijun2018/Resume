@@ -1,6 +1,6 @@
 //Styled
 import { StyledLittleTitle } from "../Styled/StyledHeader";
-import { StyledCell } from "../Styled/StyledContent";
+import { StyledCell, StyledLine, StyledTitle } from "../Styled/StyledContent";
 //Image
 import honorPhoto from "../Img/honor.png";
 import sun from "../Img/sun.png";
@@ -9,28 +9,44 @@ const honor = () => {
     <div>
       <StyledLittleTitle>
         <img src={honorPhoto} alt="honorPhoto" />
-        个人荣誉
+        <StyledTitle>个人荣誉</StyledTitle>
       </StyledLittleTitle>
-      <StyledCell>
-        <img src={sun} alt="sun" />
-        校级优秀三好学生 2018-2020
-      </StyledCell>
-      <StyledCell>
-        <img src={sun} alt="sun" />
-        人民一等奖学金 2018-2020
-      </StyledCell>
-      <StyledCell>
-        <img src={sun} alt="sun" />
-        计算机技术与软件专业技术资格 - 软件设计师 2020.11
-      </StyledCell>
-      <StyledCell>
-        <img src={sun} alt="sun" />
-        江苏省大学生信息技术应用能力比赛 三等奖 2020.12
-      </StyledCell>
-      <StyledCell>
-        <img src={sun} alt="sun" />
-        校级编程技能比赛 最佳程序媛奖 2019.10
-      </StyledCell>
+      <ul>
+        <div>
+          <StyledCell>
+            <img src={sun} alt="sun" />
+            <StyledLine>校级优秀三好学生 2018-2020</StyledLine>
+          </StyledCell>
+        </div>
+        <div>
+          <StyledCell>
+            <img src={sun} alt="sun" />
+            <StyledLine>人民一等奖学金 2018-2020</StyledLine>
+          </StyledCell>
+        </div>
+        <div>
+          <StyledCell>
+            <img src={sun} alt="sun" />
+            <StyledLine>
+              计算机技术与软件专业技术资格 - 软件设计师 2020.11
+            </StyledLine>
+          </StyledCell>
+        </div>
+        <div>
+          <StyledCell>
+            <img src={sun} alt="sun" />
+            <StyledLine>
+              江苏省大学生信息技术应用能力比赛 三等奖 2020.12
+            </StyledLine>
+          </StyledCell>
+        </div>
+        <div>
+          <StyledCell>
+            <img src={sun} alt="sun" />
+            <StyledLine>校级编程技能比赛 最佳程序媛奖 2019.10</StyledLine>
+          </StyledCell>
+        </div>
+      </ul>
     </div>
   );
 };

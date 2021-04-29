@@ -1,7 +1,13 @@
 import React from "react";
 //Styled
 import { StyledLittleTitle } from "../Styled/StyledHeader";
-import { StyledCell, StyledGitLink } from "../Styled/StyledContent";
+import {
+  StyledCell,
+  StyledGithub,
+  StyledGitLink,
+  StyledLine,
+  StyledTitle,
+} from "../Styled/StyledContent";
 //Image
 import education from "../Img/Education.png";
 import Information from "../Img/Information.png";
@@ -17,38 +23,61 @@ const information = () => {
     <div>
       <StyledLittleTitle>
         <img src={Information} alt="information" />
-        基本信息
+        <StyledTitle>基本信息</StyledTitle>
       </StyledLittleTitle>
-      <StyledCell>
-        <img src={education} alt="education" />
-        曹慧珺｜女｜2022年6月毕业｜江苏科技大学｜信息安全
-      </StyledCell>
-      <StyledCell>
-        <img src={skill} alt="skill" />
-        技能：HTML｜CSS｜JavaScript｜React｜Git
-      </StyledCell>
-      <StyledCell>
-        <img src={phone} alt="phone" />
-        15601940829
-      </StyledCell>
-      <StyledCell>
-        <img src={Wechat} alt="WeChat" />
-        caohuijun0828
-      </StyledCell>
-      <StyledCell>
-        <img src={github} alt="github" />
-        <StyledGitLink href="https://github.com/caohuijun2018" target="_blank">
-          github.com/caohuijun2018
-        </StyledGitLink>
-      </StyledCell>
-      <StyledCell>
-        <img src={email} alt="email" />
-        caohuijun2018@gmail.com
-      </StyledCell>
-      <StyledCell>
-        <img src={evaluate} alt="evaluate" />
-        自我评价： 踏实肯干，自学能力较强，有良好的沟通能力和团队合作能力
-      </StyledCell>
+      <ul>
+        <div>
+          <StyledCell>
+            <img src={education} alt="education" />
+            <StyledLine>
+              曹慧珺｜女｜2022年6月毕业｜江苏科技大学｜信息安全
+            </StyledLine>
+          </StyledCell>
+        </div>
+        <div>
+          <StyledCell>
+            <img src={skill} alt="skill" />
+            <StyledLine>技能：HTML｜CSS｜JavaScript｜React｜Git</StyledLine>
+          </StyledCell>
+        </div>
+        <div>
+          <StyledCell>
+            <img src={phone} alt="phone" />
+            <StyledLine>15601940829</StyledLine>
+          </StyledCell>
+        </div>
+        <div>
+          <StyledCell>
+            <img src={Wechat} alt="WeChat" />
+            <StyledLine>caohuijun0828</StyledLine>
+          </StyledCell>
+        </div>
+        <div>
+          <StyledCell>
+            <StyledGithub src={github} alt="github" />
+            <StyledGitLink
+              href="https://github.com/caohuijun2018"
+              target="_blank"
+            >
+              <StyledLine>github.com/caohuijun2018</StyledLine>
+            </StyledGitLink>
+          </StyledCell>
+        </div>
+        <div>
+          <StyledCell>
+            <img src={email} alt="email" />
+            <StyledLine>caohuijun2018@gmail.com</StyledLine>
+          </StyledCell>
+        </div>
+        <div>
+          <StyledCell>
+            <StyledGithub src={evaluate} alt="evaluate" />
+            <StyledLine>
+              自我评价： 踏实肯干，自学能力较强，有良好的沟通能力和团队合作能力
+            </StyledLine>
+          </StyledCell>
+        </div>
+      </ul>
     </div>
   );
 };

@@ -1,6 +1,10 @@
 //Styled
 import { StyledPage } from "../Styled/StyledPage";
-import { StyledContent, StyledResumeLink } from "../Styled/StyledContent";
+import {
+  StyledContent,
+  StyledResumeLink,
+  StyledTitle,
+} from "../Styled/StyledContent";
 import { StyledLittleTitle } from "../Styled/StyledHeader";
 import { StyledTop } from "../Styled/StyledContent";
 import { StyledAll } from "../Styled/StyledContent";
@@ -28,7 +32,7 @@ function Content() {
         <StyledAll>
           <StyledLittleTitle>
             <img src={flag} alt="flag" />
-            意向职位
+            <StyledTitle>意向职位</StyledTitle>
           </StyledLittleTitle>
           <StyledYixiang> 前端开发实习生 </StyledYixiang>
           {information()}
