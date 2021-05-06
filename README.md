@@ -1,7 +1,7 @@
 ## 简历源码
 
-[https://github.com/caohuilin/Resume](github.com/caohuilin/Resume)
+[/github.com/caohuilin/Resume](https://github.com/caohuijun2018/Resume)
 
 ## 在线简历
 
-[https://caohuijun.hi-hi.cn/](caohuijun.hi-hi.cn)
+[caohuijun.hi-hi.cn/](https://caohuijun.hi-hi.cn/)
