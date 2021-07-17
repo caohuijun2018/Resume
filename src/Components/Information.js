@@ -44,13 +44,7 @@ const information = () => {
         <div>
           <StyledCell>
             <img src={phone} alt="phone" />
-            <StyledLine>15601940829</StyledLine>
-          </StyledCell>
-        </div>
-        <div>
-          <StyledCell>
-            <img src={Wechat} alt="WeChat" />
-            <StyledLine>caohuijun0828</StyledLine>
+            <StyledLine>15601940829 | caohuijun0828 | caohuijun2018@gmail.com </StyledLine>
           </StyledCell>
         </div>
         <div>
@@ -62,12 +56,6 @@ const information = () => {
             >
               <StyledLine>github.com/caohuijun2018</StyledLine>
             </StyledGitLink>
-          </StyledCell>
-        </div>
-        <div>
-          <StyledCell>
-            <img src={email} alt="email" />
-            <StyledLine>caohuijun2018@gmail.com</StyledLine>
           </StyledCell>
         </div>
         <div>
