@@ -1,14 +1,21 @@
 //Styled
 import { StyledLittleTitle } from "../Styled/StyledHeader";
-import { StyledCell, StyledLine, StyledTitle, StyledUl } from "../Styled/StyledContent";
+import {
+  StyledCell,
+  StyledLine,
+  StyledTitle,
+  StyledUl,
+  StyledHonor,
+} from "../Styled/StyledContent";
 //Image
-import honorPhoto from "../Img/honor.png";
+import honorP from "../Img/honorp.png";
+
 import sun from "../Img/sun.png";
 const honor = () => {
   return (
     <div>
       <StyledLittleTitle>
-        <img src={honorPhoto} alt="honorPhoto" />
+        <StyledHonor src={honorP} alt="honorPhoto" />
         <StyledTitle>个人荣誉</StyledTitle>
       </StyledLittleTitle>
       <StyledUl>

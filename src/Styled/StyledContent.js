@@ -83,3 +83,6 @@ export const StyledGithub = styled.img`
   display: flex;
   align-items: center;
 `;
+export const StyledHonor = styled.img`
+  width: 2.2rem;
+`;

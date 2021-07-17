@@ -10,12 +10,13 @@ import { StyledTop } from "../Styled/StyledContent";
 import { StyledAll } from "../Styled/StyledContent";
 import { StyledYixiang } from "../Styled/StyledContent";
 //Image
-import flag from "../Img/Flag.png";
+import position from '../Img/position.png'
 //Components
 import information from "./Information";
 import talent from "./Skill";
 import project from "./Project";
 import honor from "./Honor";
+import workExperience from './Experience'
 function Content() {
   return (
     <StyledPage>
@@ -31,14 +32,15 @@ function Content() {
         </StyledTop>
         <StyledAll>
           <StyledLittleTitle>
-            <img src={flag} alt="flag" />
+            <img src={position} alt="position" />
             <StyledTitle>意向职位</StyledTitle>
           </StyledLittleTitle>
-          <StyledYixiang> 前端开发实习生 </StyledYixiang>
+          <StyledYixiang> 前端开发工程师 </StyledYixiang>
           {information()}
           {talent()}
           {honor()}
           {project()}
+          {workExperience()}
         </StyledAll>
       </StyledContent>
     </StyledPage>

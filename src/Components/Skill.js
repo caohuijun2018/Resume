@@ -1,15 +1,20 @@
 //Styled
 import { StyledLittleTitle } from "../Styled/StyledHeader";
-import { StyledCell, StyledGithub, StyledLine, StyledTitle, StyledUl } from "../Styled/StyledContent";
+import {
+  StyledCell,
+  StyledGithub,
+  StyledLine,
+  StyledTitle,
+  StyledUl,
+} from "../Styled/StyledContent";
 //Image
-import tag from "../Img/tag.png";
 import start from "../Img/start.png";
-
+import nengli from "../Img/nengli.png";
 const talent = () => {
   return (
     <div>
       <StyledLittleTitle>
-        <StyledGithub src={tag} alt="tag" />
+        <StyledGithub src={nengli} alt="tag" />
         <StyledTitle>技能特长</StyledTitle>
       </StyledLittleTitle>
       <StyledUl>
