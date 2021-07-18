@@ -14,10 +14,8 @@ import education from "../Img/Education.png";
 import Information from "../Img/Information.png";
 import phone from "../Img/Phone.png";
 import github from "../Img/github.png";
-import email from "../Img/Email.png";
 import skill from "../Img/skill.png";
 import evaluate from "../Img/evaluate.png";
-import Wechat from "../Img/WeChat.png";
 
 const information = () => {
   return (
